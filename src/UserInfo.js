@@ -17,9 +17,8 @@ class UserInfo extends Component {
   render() {
     return (
       <div className="UserInfo">
-        <p>Name: {this.state.name}</p>
-        <p>Email: {this.state.email}</p>
-        <p>ID: {this.state.id}</p>
+        <p>Full Name: {this.state.name}</p>
+        <p>Email address: {this.state.email}</p>
       </div>
     );
   }

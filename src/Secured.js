@@ -22,8 +22,7 @@ class Secured extends Component {
       if(this.state.authenticated) return (
         <div>
           <p>
-            This is a RH SSO-secured component of your application. You shouldn't be able to see this
-            unless you've authenticated with RH SSO.
+            This is a RH SSO-protected page of your application.
           </p>
           <UserInfo keycloak={this.state.keycloak} />
           <Logout keycloak={this.state.keycloak} />

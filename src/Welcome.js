@@ -5,7 +5,7 @@ class Welcome extends Component {
   render() {
     return (
       <div className="Welcome">
-        <p>This is your public-facing component.</p>
+        <p>This page is unsecured by RH SSO.</p>
       </div>
     );
   }

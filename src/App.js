@@ -12,8 +12,8 @@ class App extends Component {
       <BrowserRouter>
         <div className="container">
           <ul>
-            <li><Link to="/">public component</Link></li>
-            <li><Link to="/secured">secured component</Link></li>
+            <li><Link to="/">Unsecured page</Link></li>
+            <li><Link to="/secured">Secured by Red Hat SSO</Link></li>
           </ul>
           <Route exact path="/" component={Welcome} />
           <Route path="/secured" component={Secured} />
